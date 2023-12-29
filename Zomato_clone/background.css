@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  
+  overflow-x: hidden;
+
+}
+
+.background-image{
+  margin-top: -3cm;
+}
+
+.background-image-container{
+  position: relative;
+}
+
+.background-image-container .background-button-container{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  column-gap: 20px;
+  margin-right: 7cm;
+  
+}
+
+.background-image-container .background-button-container button{
+  color: white;
+  padding: 10px;
+  
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: border-bottom 0.5s;
+}
+
+.background-image-container .background-button-container button:hover{
+  cursor: pointer;
+  
+}
+
+.background-para{
+  position: absolute;
+  left: 310px;
+  top: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.zomato{
+  font-size: 60px;
+  font-family: Arial;
+}
+.zomatopara{
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+}

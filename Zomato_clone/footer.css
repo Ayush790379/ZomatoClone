@@ -1,0 +1,99 @@
+.footer{
+  background-color: rgb(245, 244, 244);
+  height: 100%;
+  width: 100%;
+  padding-top: 1cm;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  
+}
+
+.heading{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+
+}
+
+.buttonss{
+  position: absolute;
+  top: 2.3cm;
+  right: 9cm;
+  display: flex;
+  
+}
+
+.button1,.button2{
+  padding: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-right: 20px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.button1:hover,.button2:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.written-content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.written-content h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.written-content h5{
+  color: rgb(92, 91, 91);
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+.linkbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.linkbar img{
+  margin-right: 5px;
+  margin-bottom: 20px;
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+
+.linkbar2{
+  display: flex;
+  flex-direction: column;
+}
+
+.linkbar2 img{
+  width: 4cm;
+  margin-bottom: 20px;
+}
+
+.footerkafooter{
+  color: rgb(155, 155, 155);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
